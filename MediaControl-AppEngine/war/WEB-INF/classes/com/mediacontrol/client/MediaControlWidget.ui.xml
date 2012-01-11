@@ -17,7 +17,12 @@
                 <textarea ui:field="messageArea" cols="46" rows="3" placeholder="Message" />
             </div>
             <g:Button ui:field="sendMessageButton">Send Message</g:Button>
+            <div id="play">
+            	<br><br></br></br>
+        		<g:Button ui:field="playButton">Play</g:Button>
+        	</div>
         </div>
+        
     </div>
    </g:HTMLPanel>
 </ui:UiBinder>
