@@ -40,7 +40,13 @@ public class MessageDisplay {
         if (extras != null) {
             String sender = (String) extras.get("sender");
             String message = (String) extras.get("message");
-            Util.generateNotification(context, "Message from " + sender + ": " + message);
+            //int startPointer=message.charAt(':');
+            //startPointer=startPointer+1; //As the separator really is ":-".
+            //System.out.println("startpointer+1 is:- "+startPointer+"\n message is :- "+message);
+            if (message.equals("MediaControl:-Play"))
+            {
+            	Util.generateNotification(context, "Message from " + sender + ": " + message);
+            }
             playNotificationSound(context);
         }
     }

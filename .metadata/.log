@@ -853,3 +853,6 @@ Caused by: java.net.SocketException: Connection reset
 
 !ENTRY org.eclipse.wst.common.project.facet.core 4 0 2012-01-11 04:08:01.745
 !MESSAGE Project facet wst.web has not been defined. It is used in plugin org.eclipse.jst.common.project.facet.core.
+
+!ENTRY org.eclipse.ui 4 4 2012-01-11 05:47:45.266
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
