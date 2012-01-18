@@ -20,18 +20,14 @@
 </reference>
 </references>
 </referenceManager>
-<uiBinderSubtypeToOwner>
-<entry owner="com.mediacontrol.client.MediaControlWidget" uiBinder="=MediaControl-AppEngine/src&lt;com.mediacontrol.client{MediaControlWidget.java[MediaControlWidget[MediaControlUiBinder"/>
-</uiBinderSubtypeToOwner>
-<uiBinderSubtypeToUiXml>
-<entry uiBinder="=MediaControl-AppEngine/src&lt;com.mediacontrol.client{MediaControlWidget.java[MediaControlWidget[MediaControlUiBinder" uiXmlPath="com/mediacontrol/client/MediaControlWidget.ui.xml"/>
-</uiBinderSubtypeToUiXml>
+<uiBinderSubtypeToOwner/>
+<uiBinderSubtypeToUiXml/>
 <uiXmlReferencedFields>
 <uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="sayHelloButton"/>
-<uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="sendMessageButton"/>
+<uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="fwdButton"/>
 <uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="recipientArea"/>
 <uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="status"/>
-<uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="messageArea"/>
+<uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="rwdButton"/>
 <uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="playButton"/>
 <uiField location="/cloudytasks-AppEngine/src/com/cloudytasks/client/CloudytasksWidget.ui.xml" name="sayHelloButton"/>
 <uiField location="/cloudytasks-AppEngine/src/com/cloudytasks/client/CloudytasksWidget.ui.xml" name="sendMessageButton"/>

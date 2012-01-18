@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="27" version="2.0">
+<workbench progressCount="48" version="2.0">
 <workbenchAdvisor/>
-<window height="768" maximized="true" width="1024" x="125" y="0">
+<window height="768" maximized="true" width="1024" x="-8" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -19,11 +19,14 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.google.gdt.eclipse.designer.uibinder.editor.UiBinderEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -46,44 +49,121 @@
 <part id="6"/>
 <part id="7"/>
 <part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="appengine-web.xml" partName="appengine-web.xml" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/war/WEB-INF/appengine-web.xml" title="appengine-web.xml" tooltip="MediaControl-AppEngine/war/WEB-INF/appengine-web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/war/WEB-INF/appengine-web.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/war/WEB-INF/web.xml" title="web.xml" tooltip="MediaControl-AppEngine/war/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/war/WEB-INF/web.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="logging.properties" partName="logging.properties" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/war/WEB-INF/logging.properties" title="logging.properties" tooltip="MediaControl-AppEngine/war/WEB-INF/logging.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/war/WEB-INF/logging.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
 <editor id="org.eclipse.ui.DefaultTextEditor" name="MediaControl.html" partName="MediaControl.html" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/war/MediaControl.html" title="MediaControl.html" tooltip="MediaControl-AppEngine/war/MediaControl.html" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/war/MediaControl.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2185" selectionTopPixel="381"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="mediacontrol.nocache.js" partName="mediacontrol.nocache.js" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/war/mediacontrol/mediacontrol.nocache.js" title="mediacontrol.nocache.js" tooltip="MediaControl-AppEngine/war/mediacontrol/mediacontrol.nocache.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/war/mediacontrol/mediacontrol.nocache.js"/>
+<editorState selectionHorizontalPixel="4928" selectionLength="0" selectionOffset="714" selectionTopPixel="0"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MyRequestFactory.java" partName="MyRequestFactory.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/shared/com/mediacontrol/client/MyRequestFactory.java" title="MyRequestFactory.java" tooltip="MediaControl-AppEngine/shared/com/mediacontrol/client/MyRequestFactory.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/shared/com/mediacontrol/client/MyRequestFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2286" selectionTopPixel="279"/>
 </editor>
 <editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MediaControl.java" partName="MediaControl.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControl.java" title="MediaControl.java" tooltip="MediaControl-AppEngine/src/com/mediacontrol/client/MediaControl.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControl.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1211" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="81" selectionTopPixel="0"/>
 </editor>
 <editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MediaControlWidget.java" partName="MediaControlWidget.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.java" title="MediaControlWidget.java" tooltip="MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="4918" selectionTopPixel="1666"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7119" selectionTopPixel="2659"/>
 </editor>
 <editor id="com.google.gdt.eclipse.designer.uibinder.editor.UiBinderEditor" name="MediaControlWidget.ui.xml" partName="MediaControlWidget.ui.xml" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" title="MediaControlWidget.ui.xml" tooltip="MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml"/>
 </editor>
-<editor id="com.google.gwt.eclipse.core.editors.cssResourceEditor" name="MediaControl.css" partName="MediaControl.css" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/war/MediaControl.css" title="MediaControl.css" tooltip="MediaControl-AppEngine/war/MediaControl.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/war/MediaControl.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1592" selectionTopPixel="1768"/>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="DeviceInfo.java" partName="DeviceInfo.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/src/com/mediacontrol/server/DeviceInfo.java" title="DeviceInfo.java" tooltip="MediaControl-AppEngine/src/com/mediacontrol/server/DeviceInfo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/src/com/mediacontrol/server/DeviceInfo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5352" selectionTopPixel="2047"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="HelloWorldService.java" partName="HelloWorldService.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/src/com/mediacontrol/server/HelloWorldService.java" title="HelloWorldService.java" tooltip="MediaControl-AppEngine/src/com/mediacontrol/server/HelloWorldService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/src/com/mediacontrol/server/HelloWorldService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1656" selectionTopPixel="75"/>
+</editor>
+<editor id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="SendMessage.java" partName="SendMessage.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/src/com/mediacontrol/server/SendMessage.java" title="SendMessage.java" tooltip="MediaControl-AppEngine/src/com/mediacontrol/server/SendMessage.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-AppEngine/src/com/mediacontrol/server/SendMessage.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1775" selectionTopPixel="194"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Setup.java" partName="Setup.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/src/com/mediacontrol/Setup.java" title="Setup.java" tooltip="MediaControl-Android/src/com/mediacontrol/Setup.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/src/com/mediacontrol/Setup.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1080" selectionTopPixel="7"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AccountsActivity.java" partName="AccountsActivity.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/src/com/mediacontrol/AccountsActivity.java" title="AccountsActivity.java" tooltip="MediaControl-Android/src/com/mediacontrol/AccountsActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/src/com/mediacontrol/AccountsActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="87" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Util.java" partName="Util.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/src/com/mediacontrol/Util.java" title="Util.java" tooltip="MediaControl-Android/src/com/mediacontrol/Util.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/src/com/mediacontrol/Util.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="122" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DeviceRegistrar.java" partName="DeviceRegistrar.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/src/com/mediacontrol/DeviceRegistrar.java" title="DeviceRegistrar.java" tooltip="MediaControl-Android/src/com/mediacontrol/DeviceRegistrar.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/src/com/mediacontrol/DeviceRegistrar.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4604" selectionTopPixel="1027"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidRequestTransport.java" partName="AndroidRequestTransport.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/src/com/mediacontrol/AndroidRequestTransport.java" title="AndroidRequestTransport.java" tooltip="MediaControl-Android/src/com/mediacontrol/AndroidRequestTransport.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/src/com/mediacontrol/AndroidRequestTransport.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4022" selectionTopPixel="976"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C2DMReceiver.java" partName="C2DMReceiver.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/src/com/mediacontrol/C2DMReceiver.java" title="C2DMReceiver.java" tooltip="MediaControl-Android/src/com/mediacontrol/C2DMReceiver.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/src/com/mediacontrol/C2DMReceiver.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2697" selectionTopPixel="653"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="92" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MessageDisplay.java" partName="MessageDisplay.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/src/com/mediacontrol/MessageDisplay.java" title="MessageDisplay.java" tooltip="MediaControl-Android/src/com/mediacontrol/MessageDisplay.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/src/com/mediacontrol/MessageDisplay.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1248" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyRequestFactory.java" partName="MyRequestFactory.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/shared/com/mediacontrol/client/MyRequestFactory.java" title="MyRequestFactory.java" tooltip="MediaControl-Android/shared/com/mediacontrol/client/MyRequestFactory.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/shared/com/mediacontrol/client/MyRequestFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2286" selectionTopPixel="279"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.ClassFileEditor" name="C2DMBaseReceiver.class" partName="C2DMBaseReceiver.class" title="C2DMBaseReceiver.class" tooltip="com.google.android.c2dm.C2DMBaseReceiver" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=MediaControl-Android/lib\/c2dm.jar&lt;com.google.android.c2dm(C2DMBaseReceiver.class"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MessageProxy.java" partName="MessageProxy.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/shared/com/mediacontrol/shared/MessageProxy.java" title="MessageProxy.java" tooltip="MediaControl-Android/shared/com/mediacontrol/shared/MessageProxy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/shared/com/mediacontrol/shared/MessageProxy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="81" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegistrationInfoProxy.java" partName="RegistrationInfoProxy.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-AppEngine/shared/com/mediacontrol/shared/RegistrationInfoProxy.java" title="RegistrationInfoProxy.java" tooltip="MediaControl-Android/shared/com/mediacontrol/shared/RegistrationInfoProxy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/shared/com/mediacontrol/shared/RegistrationInfoProxy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="81" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" partName="R.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/gen/com/mediacontrol/R.java" title="R.java" tooltip="MediaControl-Android/gen/com/mediacontrol/R.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/gen/com/mediacontrol/R.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MediaPlaybackActivity.java" partName="MediaPlaybackActivity.java" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/lib/com/android/music/MediaPlaybackActivity.java" title="MediaPlaybackActivity.java" tooltip="MediaControl-Android/lib/com/android/music/MediaPlaybackActivity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/lib/com/android/music/MediaPlaybackActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="debugging_prefs.properties" partName="debugging_prefs.properties" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/assets/debugging_prefs.properties" title="debugging_prefs.properties" tooltip="MediaControl-Android/assets/debugging_prefs.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/assets/debugging_prefs.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="24" selectionOffset="4" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="MediaControl-Android Manifest" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/AndroidManifest.xml" title="MediaControl-Android Manifest" tooltip="MediaControl-Android/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/AndroidManifest.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.PropertiesFileEditor" name="project.properties" partName="project.properties" path="C:/Users/Pro/workspacemanualinstall/MediaControl-Android/project.properties" title="project.properties" tooltip="MediaControl-Android/project.properties" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MediaControl-Android/project.properties"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -116,17 +196,19 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -157,9 +239,6 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
 <sorter groupBy="CATEGORY_QUERY">
@@ -185,7 +264,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -252,14 +331,14 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.google.gwt.eclipse.DevModeView"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
 <fastViewBars/>
 <layout>
@@ -288,7 +367,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.google.gwt.eclipse.DevModeView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
@@ -380,68 +459,49 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74962294" ratioLeft="497" ratioRight="166" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74962294" ratioLeft="497" ratioRight="166" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="com.google.gwt.eclipse.DevModeView" label="Development Mode"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1565f31" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
-<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1565f31" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44869214" ratioLeft="223" ratioRight="274" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="679" ratioRight="679" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -453,163 +513,172 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/MediaControl-AppEngine/war/mediacontrol/mediacontrol.nocache.js"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gdt.eclipse.designer.uibinder.editor.UiBinderEditor" path="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/src/com/mediacontrol/Setup.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/MediaControl-AppEngine/war/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/MediaControl-AppEngine/src/com/mediacontrol/server/HelloWorldService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/MediaControl-AppEngine/src/com/mediacontrol/server/Message.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/MediaControl-AppEngine/src/com/mediacontrol/server/MessageLocator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" path="/MediaControl-AppEngine/src/com/mediacontrol/server/SendMessage.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/src/com/mediacontrol/AccountsActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/src/com/mediacontrol/Setup.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/src/com/mediacontrol/Util.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/src/com/mediacontrol/DeviceRegistrar.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/src/com/mediacontrol/AndroidRequestTransport.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/src/com/mediacontrol/C2DMReceiver.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/src/com/mediacontrol/MessageDisplay.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=MediaControl-Android/lib\/c2dm.jar&lt;com.google.android.c2dm(C2DMBaseReceiver.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=MediaControl-Android/C:\/Users\/Pro\/android-sdks\/platforms\/android-10\/android.jar&lt;android.app(IntentService.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=MediaControl-Android/C:\/Users\/Pro\/android-sdks\/platforms\/android-10\/android.jar&lt;android.os(Handler.class"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=MediaControl-Android/C:\/Users\/Pro\/android-sdks\/platforms\/android-10\/android.jar&lt;android.os(Looper.class"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/lib/com/android/music/MediaPlaybackActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/shared/com/mediacontrol/client/MyRequestFactory.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/shared/com/mediacontrol/shared/MessageProxy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/shared/com/mediacontrol/shared/RegistrationInfoProxy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/gen/com/mediacontrol/Manifest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MediaControl-Android/gen/com/mediacontrol/R.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/MediaControl-Android/assets/debugging_prefs.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/MediaControl-Android/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/MediaControl-Android/project.properties"/>
 </editors>
-<item historyLabel="MediaControlWidget.java" index="0">
-<position info="not_deleted" x="6328" y="0"/>
+<item historyLabel="Message.java" index="5">
+<position info="not_deleted" x="1058" y="0"/>
 </item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2839" y="0"/>
+<item historyLabel="MessageLocator.java" index="6">
+<position info="not_deleted" x="81" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2470" y="0"/>
+<item historyLabel="Message.java" index="5">
+<position info="not_deleted" x="1451" y="0"/>
 </item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2839" y="0"/>
+<item historyLabel="MessageLocator.java" index="6">
+<position info="not_deleted" x="1021" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="112" y="0"/>
+<item historyLabel="HelloWorldService.java" index="4">
+<position info="not_deleted" x="1656" y="0"/>
 </item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2863" y="0"/>
+<item historyLabel="SendMessage.java" index="7">
+<position info="not_deleted" x="1248" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="112" y="0"/>
+<item historyLabel="HelloWorldService.java" index="4">
+<position info="not_deleted" x="1656" y="0"/>
 </item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2863" y="0"/>
+<item historyLabel="MediaControlWidget.java" index="1">
+<position info="not_deleted" x="7119" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="112" y="0"/>
+<item historyLabel="web.xml" index="3"/>
+<item historyLabel="mediacontrol.nocache.js" index="0">
+<position info="not_deleted" x="714" y="0"/>
 </item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2863" y="0"/>
+<item historyLabel="Setup.java" index="2">
+<position info="not_deleted" x="1056" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1597" y="0"/>
+<item historyLabel="HelloWorldService.java" index="4">
+<position info="not_deleted" x="1656" y="0"/>
 </item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2863" y="0"/>
+<item historyLabel="SendMessage.java" index="7">
+<position info="not_deleted" x="1775" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1597" y="0"/>
+<item historyLabel="web.xml" index="3"/>
+<item historyLabel="Setup.java" index="2">
+<position info="not_deleted" x="1056" y="0"/>
 </item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2863" y="0"/>
+<item historyLabel="AccountsActivity.java" index="8">
+<position info="not_deleted" x="81" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1597" y="0"/>
+<item historyLabel="Setup.java" index="9">
+<position info="not_deleted" x="81" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2006" y="0"/>
+<item historyLabel="Setup.java" index="9">
+<position info="not_deleted" x="1493" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1867" y="0"/>
+<item historyLabel="Util.java" index="10">
+<position info="not_deleted" x="122" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2006" y="0"/>
+<item historyLabel="DeviceRegistrar.java" index="11">
+<position info="not_deleted" x="4604" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1885" y="0"/>
+<item historyLabel="AndroidRequestTransport.java" index="12">
+<position info="not_deleted" x="4022" y="0"/>
 </item>
-<item historyLabel="C2DMBaseReceiver.class" index="4">
+<item historyLabel="C2DMReceiver.java" index="13">
+<position info="not_deleted" x="92" y="0"/>
+</item>
+<item historyLabel="MyRequestFactory.java" index="14">
+<position info="not_deleted" x="2286" y="0"/>
+</item>
+<item historyLabel="MessageProxy.java" index="15">
+<position info="not_deleted" x="81" y="0"/>
+</item>
+<item historyLabel="RegistrationInfoProxy.java" index="16">
+<position info="not_deleted" x="81" y="0"/>
+</item>
+<item historyLabel="Manifest.java" index="17">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2863" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1885" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1818" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1638" y="0"/>
-</item>
-<item historyLabel="C2DMBaseReceiver.class" index="4">
+<item historyLabel="R.java" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IntentService.class" index="5">
-<position/>
+<item historyLabel="MessageProxy.java" index="15">
+<position info="not_deleted" x="81" y="0"/>
 </item>
-<item historyLabel="Handler.class" index="6">
+<item historyLabel="RegistrationInfoProxy.java" index="16">
+<position info="not_deleted" x="81" y="0"/>
+</item>
+<item historyLabel="debugging_prefs.properties" index="19">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Looper.class" index="7">
+<item historyLabel="Manifest.java" index="17">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1638" y="0"/>
-</item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2863" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1959" y="0"/>
-</item>
-<item historyLabel="C2DMBaseReceiver.class" index="4">
+<item historyLabel="R.java" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="IntentService.class" index="5">
+<item historyLabel="Manifest.java" index="17">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1959" y="0"/>
-</item>
-<item historyLabel="MediaControlWidget.ui.xml" index="1"/>
-<item historyLabel="MediaControlWidget.java" index="0">
-<position info="not_deleted" x="4918" y="18"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2094" y="0"/>
-</item>
-<item historyLabel="C2DMReceiver.java" index="2">
-<position info="not_deleted" x="2697" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2094" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2419" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2405" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2405" y="0"/>
-</item>
-<item historyLabel="C2DMBaseReceiver.class" index="4">
+<item historyLabel="R.java" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2405" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="1144" y="0"/>
-</item>
-<item historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2302" y="0"/>
-</item>
-<item historyLabel="MediaPlaybackActivity.java" index="8">
-<position info="not_deleted" x="3" y="0"/>
-</item>
-<item historyLabel="C2DMBaseReceiver.class" index="4">
+<item historyLabel="Manifest.java" index="17">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="MessageDisplay.java" index="3">
-<position info="not_deleted" x="2302" y="0"/>
+<item historyLabel="R.java" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Manifest.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="R.java" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="debugging_prefs.properties" index="19">
+<position info="not_deleted" x="20" y="0"/>
+</item>
+<item historyLabel="Manifest.java" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="debugging_prefs.properties" index="19">
+<position info="not_deleted" x="20" y="0"/>
+</item>
+<item historyLabel="MediaControl-Android Manifest" index="20"/>
+<item historyLabel="project.properties" index="21">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="R.java" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Setup.java" index="9">
+<position info="not_deleted" x="1080" y="0"/>
+</item>
+<item historyLabel="debugging_prefs.properties" index="19">
+<position info="not_deleted" x="4" y="24"/>
+</item>
+<item historyLabel="RegistrationInfoProxy.java" index="16">
+<position info="not_deleted" x="81" y="0"/>
+</item>
+<item historyLabel="Setup.java" index="9">
+<position info="not_deleted" x="1080" y="0"/>
+</item>
+<item historyLabel="Util.java" index="10">
+<position info="not_deleted" x="122" y="0"/>
+</item>
+<item active="true" historyLabel="AccountsActivity.java" index="8">
+<position info="not_deleted" x="87" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -618,12 +687,11 @@
 <actionBarAdvisor/>
 <trimLayout>
 <trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<trimItem IMemento.internal.id="left"/>
 </trimArea>
 <trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ToolsFolderView"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.OutlineFolderView"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@1565f31"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@18fc7ca"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -633,37 +701,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.debug.internal.ui.ConsoleFolderView"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MediaPlaybackActivity.java" tooltip="MediaControl-Android/lib/com/android/music/MediaPlaybackActivity.java">
-<persistable path="/MediaControl-Android/lib/com/android/music/MediaPlaybackActivity.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="project.properties" tooltip="MediaControl-Android/project.properties">
+<persistable path="/MediaControl-Android/project.properties"/>
 </file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="C2DMBaseReceiver.class" tooltip="com.google.android.c2dm.C2DMBaseReceiver">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=MediaControl-Android/lib\/c2dm.jar&lt;com.google.android.c2dm(C2DMBaseReceiver.class"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="MediaControl-Android/AndroidManifest.xml">
+<persistable path="/MediaControl-Android/AndroidManifest.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MessageDisplay.java" tooltip="MediaControl-Android/src/com/mediacontrol/MessageDisplay.java">
-<persistable path="/MediaControl-Android/src/com/mediacontrol/MessageDisplay.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="debugging_prefs.properties" tooltip="MediaControl-Android/assets/debugging_prefs.properties">
+<persistable path="/MediaControl-Android/assets/debugging_prefs.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="MediaControl-Android/gen/com/mediacontrol/R.java">
+<persistable path="/MediaControl-Android/gen/com/mediacontrol/R.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Manifest.java" tooltip="MediaControl-Android/gen/com/mediacontrol/Manifest.java">
+<persistable path="/MediaControl-Android/gen/com/mediacontrol/Manifest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegistrationInfoProxy.java" tooltip="MediaControl-Android/shared/com/mediacontrol/shared/RegistrationInfoProxy.java">
+<persistable path="/MediaControl-Android/shared/com/mediacontrol/shared/RegistrationInfoProxy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MessageProxy.java" tooltip="MediaControl-Android/shared/com/mediacontrol/shared/MessageProxy.java">
+<persistable path="/MediaControl-Android/shared/com/mediacontrol/shared/MessageProxy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyRequestFactory.java" tooltip="MediaControl-Android/shared/com/mediacontrol/client/MyRequestFactory.java">
+<persistable path="/MediaControl-Android/shared/com/mediacontrol/client/MyRequestFactory.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="C2DMReceiver.java" tooltip="MediaControl-Android/src/com/mediacontrol/C2DMReceiver.java">
 <persistable path="/MediaControl-Android/src/com/mediacontrol/C2DMReceiver.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.cssResourceEditor" name="MediaControl.css" tooltip="MediaControl-AppEngine/war/MediaControl.css">
-<persistable path="/MediaControl-AppEngine/war/MediaControl.css"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidRequestTransport.java" tooltip="MediaControl-Android/src/com/mediacontrol/AndroidRequestTransport.java">
+<persistable path="/MediaControl-Android/src/com/mediacontrol/AndroidRequestTransport.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gdt.eclipse.designer.uibinder.editor.UiBinderEditor" name="MediaControlWidget.ui.xml" tooltip="MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml">
-<persistable path="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DeviceRegistrar.java" tooltip="MediaControl-Android/src/com/mediacontrol/DeviceRegistrar.java">
+<persistable path="/MediaControl-Android/src/com/mediacontrol/DeviceRegistrar.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MediaControlWidget.java" tooltip="MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.java">
-<persistable path="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Util.java" tooltip="MediaControl-Android/src/com/mediacontrol/Util.java">
+<persistable path="/MediaControl-Android/src/com/mediacontrol/Util.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="MediaControl.java" tooltip="MediaControl-AppEngine/src/com/mediacontrol/client/MediaControl.java">
-<persistable path="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControl.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AccountsActivity.java" tooltip="MediaControl-Android/src/com/mediacontrol/AccountsActivity.java">
+<persistable path="/MediaControl-Android/src/com/mediacontrol/AccountsActivity.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="MediaControl.html" tooltip="MediaControl-AppEngine/war/MediaControl.html">
-<persistable path="/MediaControl-AppEngine/war/MediaControl.html"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Setup.java" tooltip="MediaControl-Android/src/com/mediacontrol/Setup.java">
+<persistable path="/MediaControl-Android/src/com/mediacontrol/Setup.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.google.gwt.eclipse.core.editors.gwtJavaEditor" name="SendMessage.java" tooltip="MediaControl-AppEngine/src/com/mediacontrol/server/SendMessage.java">
+<persistable path="/MediaControl-AppEngine/src/com/mediacontrol/server/SendMessage.java"/>
 </file>
 </mruList>
 </workbench>

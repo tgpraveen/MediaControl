@@ -39,6 +39,9 @@ import com.mediacontrol.shared.MessageProxy;
 //Praveen
 //import com.google.appengine.api.users.UserService;
 //import com.google.appengine.api.users.UserServiceFactory;
+//import com.google.appengine.api.users.User;
+//import com.google.appengine.api.users.UserService;
+//import com.google.appengine.api.users.UserServiceFactory;
 
 public class MediaControlWidget extends Composite {
 
@@ -80,6 +83,8 @@ public class MediaControlWidget extends Composite {
   //Code inspired from Google App Engine's Java docs
  //UserService userService = UserServiceFactory.getUserService();
  //final String currentusersemail=userService.getCurrentUser().getEmail();
+  //UserService userService = UserServiceFactory.getUserService();
+  //User user = userService.getCurrentUser();
   
   /**
    * Timer to clear the UI.
@@ -89,7 +94,7 @@ public class MediaControlWidget extends Composite {
     public void run() {
       status.setInnerText("");
       status.setClassName(STATUS_NONE);
-      //recipientArea.setValue("");
+      //recipientArea.setValue(user.getEmail());
       //messageArea.setValue("");
     }
   };
