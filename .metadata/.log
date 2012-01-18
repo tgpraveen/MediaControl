@@ -1099,3 +1099,65 @@ com.sun.jdi.VMDisconnectedException: Got IOException from Virtual Machine
 	at org.eclipse.debug.core.DebugPlugin$AsynchRunner.async(DebugPlugin.java:1031)
 	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:388)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2012-01-18 13:02:43.473
+!MESSAGE Unable to update app: Error posting to URL: https://appengine.google.com/api/appversion/create?app_id=promediacontrol&version=1&
+409 Conflict
+Another transaction by user tgpraveen89 is already in progress for app: s~promediacontrol, version: 1. That user can undo the transaction with "appcfg rollback".
+
+
+See the deployment console for more details
+!STACK 0
+com.google.appengine.tools.admin.AdminException: Unable to update app: Error posting to URL: https://appengine.google.com/api/appversion/create?app_id=promediacontrol&version=1&
+409 Conflict
+Another transaction by user tgpraveen89 is already in progress for app: s~promediacontrol, version: 1. That user can undo the transaction with "appcfg rollback".
+
+	at com.google.appengine.tools.admin.AppAdminImpl.doUpdate(AppAdminImpl.java:333)
+	at com.google.appengine.tools.admin.AppAdminImpl.update(AppAdminImpl.java:52)
+	at com.google.appengine.eclipse.core.proxy.AppEngineBridgeImpl.deploy(AppEngineBridgeImpl.java:400)
+	at com.google.appengine.eclipse.core.deploy.DeployProjectJob.runInWorkspace(DeployProjectJob.java:148)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: com.google.appengine.tools.admin.HttpIoException: Error posting to URL: https://appengine.google.com/api/appversion/create?app_id=promediacontrol&version=1&
+409 Conflict
+Another transaction by user tgpraveen89 is already in progress for app: s~promediacontrol, version: 1. That user can undo the transaction with "appcfg rollback".
+
+	at com.google.appengine.tools.admin.AbstractServerConnection.send1(AbstractServerConnection.java:282)
+	at com.google.appengine.tools.admin.AbstractServerConnection.send(AbstractServerConnection.java:235)
+	at com.google.appengine.tools.admin.AbstractServerConnection.post(AbstractServerConnection.java:214)
+	at com.google.appengine.tools.admin.AppVersionUpload.send(AppVersionUpload.java:606)
+	at com.google.appengine.tools.admin.AppVersionUpload.beginTransaction(AppVersionUpload.java:414)
+	at com.google.appengine.tools.admin.AppVersionUpload.doUpload(AppVersionUpload.java:122)
+	at com.google.appengine.tools.admin.AppAdminImpl.doUpdate(AppAdminImpl.java:328)
+	... 5 more
+
+!ENTRY com.google.appengine.eclipse.core 4 0 2012-01-18 13:04:27.899
+!MESSAGE Unable to update app: Error posting to URL: https://appengine.google.com/api/appversion/create?app_id=promediacontrol&version=1&
+409 Conflict
+Another transaction by user tgpraveen89 is already in progress for app: s~promediacontrol, version: 1. That user can undo the transaction with "appcfg rollback".
+
+
+See the deployment console for more details
+!STACK 0
+com.google.appengine.tools.admin.AdminException: Unable to update app: Error posting to URL: https://appengine.google.com/api/appversion/create?app_id=promediacontrol&version=1&
+409 Conflict
+Another transaction by user tgpraveen89 is already in progress for app: s~promediacontrol, version: 1. That user can undo the transaction with "appcfg rollback".
+
+	at com.google.appengine.tools.admin.AppAdminImpl.doUpdate(AppAdminImpl.java:333)
+	at com.google.appengine.tools.admin.AppAdminImpl.update(AppAdminImpl.java:52)
+	at com.google.appengine.eclipse.core.proxy.AppEngineBridgeImpl.deploy(AppEngineBridgeImpl.java:400)
+	at com.google.appengine.eclipse.core.deploy.DeployProjectJob.runInWorkspace(DeployProjectJob.java:148)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: com.google.appengine.tools.admin.HttpIoException: Error posting to URL: https://appengine.google.com/api/appversion/create?app_id=promediacontrol&version=1&
+409 Conflict
+Another transaction by user tgpraveen89 is already in progress for app: s~promediacontrol, version: 1. That user can undo the transaction with "appcfg rollback".
+
+	at com.google.appengine.tools.admin.AbstractServerConnection.send1(AbstractServerConnection.java:282)
+	at com.google.appengine.tools.admin.AbstractServerConnection.send(AbstractServerConnection.java:235)
+	at com.google.appengine.tools.admin.AbstractServerConnection.post(AbstractServerConnection.java:214)
+	at com.google.appengine.tools.admin.AppVersionUpload.send(AppVersionUpload.java:606)
+	at com.google.appengine.tools.admin.AppVersionUpload.beginTransaction(AppVersionUpload.java:414)
+	at com.google.appengine.tools.admin.AppVersionUpload.doUpload(AppVersionUpload.java:122)
+	at com.google.appengine.tools.admin.AppAdminImpl.doUpdate(AppAdminImpl.java:328)
+	... 5 more
