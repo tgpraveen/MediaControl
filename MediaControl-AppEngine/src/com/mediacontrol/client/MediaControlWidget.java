@@ -36,6 +36,10 @@ import com.mediacontrol.client.MyRequestFactory.HelloWorldRequest;
 import com.mediacontrol.client.MyRequestFactory.MessageRequest;
 import com.mediacontrol.shared.MessageProxy;
 
+//Praveen
+//import com.google.appengine.api.users.UserService;
+//import com.google.appengine.api.users.UserServiceFactory;
+
 public class MediaControlWidget extends Composite {
 
   private static final int STATUS_DELAY = 4000;
@@ -48,8 +52,8 @@ public class MediaControlWidget extends Composite {
 
   private static MediaControlUiBinder uiBinder = GWT.create(MediaControlUiBinder.class);
 
-  @UiField
-  TextAreaElement messageArea;
+  //@UiField
+  //TextAreaElement messageArea;
 
   @UiField
   InputElement recipientArea;
@@ -60,12 +64,23 @@ public class MediaControlWidget extends Composite {
   @UiField
   Button sayHelloButton;
 
+  //@UiField
+  //Button sendMessageButton;
+  
   @UiField
-  Button sendMessageButton;
+  Button rwdButton;
   
   @UiField
   Button playButton;
+  
+  @UiField
+  Button fwdButton;
 
+  //Praveen
+  //Code inspired from Google App Engine's Java docs
+ //UserService userService = UserServiceFactory.getUserService();
+ //final String currentusersemail=userService.getCurrentUser().getEmail();
+  
   /**
    * Timer to clear the UI.
    */
@@ -74,8 +89,8 @@ public class MediaControlWidget extends Composite {
     public void run() {
       status.setInnerText("");
       status.setClassName(STATUS_NONE);
-      recipientArea.setValue("");
-      messageArea.setValue("");
+      //recipientArea.setValue("");
+      //messageArea.setValue("");
     }
   };
 
@@ -97,14 +112,16 @@ public class MediaControlWidget extends Composite {
   public MediaControlWidget() {
     initWidget(uiBinder.createAndBindUi(this));
     sayHelloButton.getElement().setClassName("send centerbtn");
-    sendMessageButton.getElement().setClassName("send");
+    //sendMessageButton.getElement().setClassName("send");
     playButton.getElement().setClassName("play");
+    fwdButton.getElement().setClassName("play");
+    rwdButton.getElement().setClassName("play");
 
     final EventBus eventBus = new SimpleEventBus();
     final MyRequestFactory requestFactory = GWT.create(MyRequestFactory.class);
     requestFactory.initialize(eventBus);
 
-    sendMessageButton.addClickHandler(new ClickHandler() {
+    /*sendMessageButton.addClickHandler(new ClickHandler() {
     public void onClick(ClickEvent event) {
         String recipient = recipientArea.getValue();
         String message = messageArea.getValue();
@@ -131,7 +148,7 @@ public class MediaControlWidget extends Composite {
           }
         });
     }
-    });
+    });*/
         
         //Praveen
         playButton.addClickHandler(new ClickHandler() {
@@ -139,7 +156,7 @@ public class MediaControlWidget extends Composite {
                 String recipient = recipientArea.getValue();
                 String message = "MediaControl:-Play";
                 setStatus("Connecting...", false);
-                sendMessageButton.setEnabled(false);
+                playButton.setEnabled(false);
 
                 // Send a message using RequestFactory
                 MessageRequest request = requestFactory.messageRequest();
@@ -150,13 +167,13 @@ public class MediaControlWidget extends Composite {
                 sendRequest.fire(new Receiver<String>() {
                   @Override
                   public void onFailure(ServerFailure error) {
-                    sendMessageButton.setEnabled(true);
+                    playButton.setEnabled(true);
                     setStatus(error.getMessage(), true);
                   }
 
                   @Override
                   public void onSuccess(String response) {
-                    sendMessageButton.setEnabled(true);
+                    playButton.setEnabled(true);
                     setStatus(response, response.startsWith("Failure:"));
                   }
                 });
@@ -165,6 +182,71 @@ public class MediaControlWidget extends Composite {
       }
     });
 
+        fwdButton.addClickHandler(new ClickHandler() {
+            public void onClick(ClickEvent event) {
+                String recipient = recipientArea.getValue();
+                String message = "MediaControl:-Forward";
+                setStatus("Connecting...", false);
+                fwdButton.setEnabled(false);
+
+                // Send a message using RequestFactory
+                MessageRequest request = requestFactory.messageRequest();
+                MessageProxy messageProxy = request.create(MessageProxy.class);
+                messageProxy.setRecipient(recipient);
+                messageProxy.setMessage(message);
+                Request<String> sendRequest = request.send().using(messageProxy);
+                sendRequest.fire(new Receiver<String>() {
+                  @Override
+                  public void onFailure(ServerFailure error) {
+                    fwdButton.setEnabled(true);
+                    setStatus(error.getMessage(), true);
+                  }
+
+                  @Override
+                  public void onSuccess(String response) {
+                    fwdButton.setEnabled(true);
+                    setStatus(response, response.startsWith("Failure:"));
+                  }
+                });
+        
+        
+      }
+    });
+
+        rwdButton.addClickHandler(new ClickHandler() {
+            public void onClick(ClickEvent event) {
+                String recipient = recipientArea.getValue();
+                String message = "MediaControl:-Rewind";
+                setStatus("Connecting...", false);
+                rwdButton.setEnabled(false);
+
+                // Send a message using RequestFactory
+                MessageRequest request = requestFactory.messageRequest();
+                MessageProxy messageProxy = request.create(MessageProxy.class);
+                messageProxy.setRecipient(recipient);
+                messageProxy.setMessage(message);
+                Request<String> sendRequest = request.send().using(messageProxy);
+                sendRequest.fire(new Receiver<String>() {
+                  @Override
+                  public void onFailure(ServerFailure error) {
+                	  rwdButton.setEnabled(true);
+                    setStatus(error.getMessage(), true);
+                  }
+
+                  @Override
+                  public void onSuccess(String response) {
+                	  rwdButton.setEnabled(true);
+                    setStatus(response, response.startsWith("Failure:"));
+                  }
+                });
+        
+        
+      }
+    });
+
+        
+        
+        
     sayHelloButton.addClickHandler(new ClickHandler() {
       public void onClick(ClickEvent event) {
         sayHelloButton.setEnabled(false);

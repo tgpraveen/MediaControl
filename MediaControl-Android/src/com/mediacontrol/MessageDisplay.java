@@ -23,7 +23,6 @@ import android.os.SystemClock;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.os.Bundle;
-//import com.android.music;
 /**
  * Display a message as a notification, with an accompanying sound.
  */
@@ -54,10 +53,28 @@ public class MessageDisplay{
                 //i.setAction("android.intent.action.MEDIA_BUTTON");
                 //context.sendBroadcast(i);            	
             }
+            if (message.equals("MediaControl:-Forward"))
+            {
+            	Util.generateNotification(context, "Message from " + sender + ": " + message);
+            	sendMediaButtonEvent(KeyEvent.KEYCODE_MEDIA_NEXT,context);
+            	//Intent i = new Intent();
+            	//i.setClassName();
+                //i.setAction("android.intent.action.MEDIA_BUTTON");
+                //context.sendBroadcast(i);            	
+            }
+            if (message.equals("MediaControl:-Rewind"))
+            {
+            	Util.generateNotification(context, "Message from " + sender + ": " + message);
+            	sendMediaButtonEvent(KeyEvent.KEYCODE_MEDIA_PREVIOUS,context);
+            	//Intent i = new Intent();
+            	//i.setClassName();
+                //i.setAction("android.intent.action.MEDIA_BUTTON");
+                //context.sendBroadcast(i);            	
+            }
             playNotificationSound(context);
         }
     }
-//Following function from CM(CyanogenMod) codebase:-
+//Following function inspired from CM(CyanogenMod) codebase:-
     private static void sendMediaButtonEvent(int code, Context context) {
         long eventtime = SystemClock.uptimeMillis();
 

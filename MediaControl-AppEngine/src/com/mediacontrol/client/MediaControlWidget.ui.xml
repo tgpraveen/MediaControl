@@ -14,12 +14,16 @@
             <div class="roundRect">
                 <input ui:field="recipientArea" type="text" class="field" size="62"
                     placeholder="pat@example.com" />
-                <textarea ui:field="messageArea" cols="46" rows="3" placeholder="Message" />
+                <!--<textarea ui:field="messageArea" cols="46" rows="3" placeholder="Message" />-->
             </div>
-            <g:Button ui:field="sendMessageButton">Send Message</g:Button>
+            <!--<g:Button ui:field="sendMessageButton">Send Message</g:Button>-->
             <div id="play">
-            	<br><br></br></br>
+            	<br><br><br></br></br></br>
+            	<center>
+            	<g:Button ui:field="rwdButton">Rewind</g:Button>
         		<g:Button ui:field="playButton">Play</g:Button>
+        		<g:Button ui:field="fwdButton">Forward</g:Button>
+        		</center>
         	</div>
         </div>
         
