@@ -5,9 +5,9 @@
     <div id="widget">
         <div id="header">
             <div ui:field="status" class="status none"></div>
-            <p>Try out roundtripping data to App Engine.</p>
-            <g:Button ui:field="sayHelloButton">Say Hello</g:Button>
-        </div>
+       <!-- <p>Try out roundtripping data to App Engine.</p>
+            <g:Button ui:field="sayHelloButton">Say Hello</g:Button> -->
+        </div> 
 
         <div id="message">
             <p>Enter your email address which you are using on your Android phone.</p>

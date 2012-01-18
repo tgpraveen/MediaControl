@@ -37,8 +37,6 @@ import com.mediacontrol.client.MyRequestFactory.MessageRequest;
 import com.mediacontrol.shared.MessageProxy;
 
 //Praveen
-//import com.google.appengine.api.users.UserService;
-//import com.google.appengine.api.users.UserServiceFactory;
 //import com.google.appengine.api.users.User;
 //import com.google.appengine.api.users.UserService;
 //import com.google.appengine.api.users.UserServiceFactory;
@@ -64,8 +62,8 @@ public class MediaControlWidget extends Composite {
   @UiField
   DivElement status;
 
-  @UiField
-  Button sayHelloButton;
+  //@UiField
+  //Button sayHelloButton;
 
   //@UiField
   //Button sendMessageButton;
@@ -82,10 +80,10 @@ public class MediaControlWidget extends Composite {
   //Praveen
   //Code inspired from Google App Engine's Java docs
  //UserService userService = UserServiceFactory.getUserService();
- //final String currentusersemail=userService.getCurrentUser().getEmail();
+ 
   //UserService userService = UserServiceFactory.getUserService();
   //User user = userService.getCurrentUser();
-  
+  //final String currentusersemail=userService.getCurrentUser().getEmail(); 
   /**
    * Timer to clear the UI.
    */
@@ -94,7 +92,7 @@ public class MediaControlWidget extends Composite {
     public void run() {
       status.setInnerText("");
       status.setClassName(STATUS_NONE);
-      //recipientArea.setValue(user.getEmail());
+      //recipientArea.setValue("");
       //messageArea.setValue("");
     }
   };
@@ -116,7 +114,7 @@ public class MediaControlWidget extends Composite {
 
   public MediaControlWidget() {
     initWidget(uiBinder.createAndBindUi(this));
-    sayHelloButton.getElement().setClassName("send centerbtn");
+    //sayHelloButton.getElement().setClassName("send centerbtn");
     //sendMessageButton.getElement().setClassName("send");
     playButton.getElement().setClassName("play");
     fwdButton.getElement().setClassName("play");
@@ -252,7 +250,7 @@ public class MediaControlWidget extends Composite {
         
         
         
-    sayHelloButton.addClickHandler(new ClickHandler() {
+    /*sayHelloButton.addClickHandler(new ClickHandler() {
       public void onClick(ClickEvent event) {
         sayHelloButton.setEnabled(false);
         HelloWorldRequest helloWorldRequest = requestFactory.helloWorldRequest();
@@ -270,6 +268,6 @@ public class MediaControlWidget extends Composite {
           }
         });
       }
-    });
+    });*/
   }
 }

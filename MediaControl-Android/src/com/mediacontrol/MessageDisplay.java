@@ -24,6 +24,7 @@ import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.os.Bundle;
 /**
+ * 
  * Display a message as a notification, with an accompanying sound.
  */
 public class MessageDisplay{
@@ -39,14 +40,14 @@ public class MessageDisplay{
     public static void displayMessage(Context context, Intent intent) {
         Bundle extras = intent.getExtras();
         if (extras != null) {
-            String sender = (String) extras.get("sender");
+            //String sender = (String) extras.get("sender");
             String message = (String) extras.get("message");
             //int startPointer=message.charAt(':');
             //startPointer=startPointer+1; //As the separator really is ":-".
             //System.out.println("startpointer+1 is:- "+startPointer+"\n message is :- "+message);
             if (message.equals("MediaControl:-Play"))
             {
-            	Util.generateNotification(context, "Message from " + sender + ": " + message);
+            	//Util.generateNotification(context, "Message from " + sender + ": " + message);
             	sendMediaButtonEvent(KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE,context);
             	//Intent i = new Intent();
             	//i.setClassName();
@@ -55,7 +56,7 @@ public class MessageDisplay{
             }
             if (message.equals("MediaControl:-Forward"))
             {
-            	Util.generateNotification(context, "Message from " + sender + ": " + message);
+            	//Util.generateNotification(context, "Message from " + sender + ": " + message);
             	sendMediaButtonEvent(KeyEvent.KEYCODE_MEDIA_NEXT,context);
             	//Intent i = new Intent();
             	//i.setClassName();
@@ -64,7 +65,7 @@ public class MessageDisplay{
             }
             if (message.equals("MediaControl:-Rewind"))
             {
-            	Util.generateNotification(context, "Message from " + sender + ": " + message);
+            	//Util.generateNotification(context, "Message from " + sender + ": " + message);
             	sendMediaButtonEvent(KeyEvent.KEYCODE_MEDIA_PREVIOUS,context);
             	//Intent i = new Intent();
             	//i.setClassName();
