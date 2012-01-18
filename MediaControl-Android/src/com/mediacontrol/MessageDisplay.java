@@ -16,16 +16,18 @@ package com.mediacontrol;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
+import android.view.KeyEvent;
 import android.media.AudioManager;
+import android.os.SystemClock;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
-import android.net.Uri;
 import android.os.Bundle;
-
+//import com.android.music;
 /**
  * Display a message as a notification, with an accompanying sound.
  */
-public class MessageDisplay {
+public class MessageDisplay{
 
     private MessageDisplay() {
     }
@@ -46,17 +48,37 @@ public class MessageDisplay {
             if (message.equals("MediaControl:-Play"))
             {
             	Util.generateNotification(context, "Message from " + sender + ": " + message);
+            	sendMediaButtonEvent(KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE,context);
+            	//Intent i = new Intent();
+            	//i.setClassName();
+                //i.setAction("android.intent.action.MEDIA_BUTTON");
+                //context.sendBroadcast(i);            	
             }
             playNotificationSound(context);
         }
     }
+//Following function from CM(CyanogenMod) codebase:-
+    private static void sendMediaButtonEvent(int code, Context context) {
+        long eventtime = SystemClock.uptimeMillis();
 
+        Intent downIntent = new Intent(Intent.ACTION_MEDIA_BUTTON, null);
+        KeyEvent downEvent = new KeyEvent(eventtime, eventtime, KeyEvent.ACTION_DOWN, code, 0);
+        downIntent.putExtra(Intent.EXTRA_KEY_EVENT, downEvent);
+        context.sendOrderedBroadcast(downIntent, null);
+
+        Intent upIntent = new Intent(Intent.ACTION_MEDIA_BUTTON, null);
+        KeyEvent upEvent = new KeyEvent(eventtime, eventtime, KeyEvent.ACTION_UP, code, 0);
+        upIntent.putExtra(Intent.EXTRA_KEY_EVENT, upEvent);
+        context.sendOrderedBroadcast(upIntent, null);
+    }
+
+    
     private static void playNotificationSound(Context context) {
         Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         if (uri != null) {
             Ringtone rt = RingtoneManager.getRingtone(context, uri);
             if (rt != null) {
-                rt.setStreamType(AudioManager.STREAM_NOTIFICATION);
+            	rt.setStreamType(AudioManager.STREAM_NOTIFICATION);
                 rt.play();
             }
         }

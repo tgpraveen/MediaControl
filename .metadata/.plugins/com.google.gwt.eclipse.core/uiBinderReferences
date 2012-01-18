@@ -32,6 +32,7 @@
 <uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="recipientArea"/>
 <uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="status"/>
 <uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="messageArea"/>
+<uiField location="/MediaControl-AppEngine/src/com/mediacontrol/client/MediaControlWidget.ui.xml" name="playButton"/>
 <uiField location="/cloudytasks-AppEngine/src/com/cloudytasks/client/CloudytasksWidget.ui.xml" name="sayHelloButton"/>
 <uiField location="/cloudytasks-AppEngine/src/com/cloudytasks/client/CloudytasksWidget.ui.xml" name="sendMessageButton"/>
 <uiField location="/cloudytasks-AppEngine/src/com/cloudytasks/client/CloudytasksWidget.ui.xml" name="recipientArea"/>

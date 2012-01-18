@@ -13,5 +13,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse/plugins/com.android.ide.eclipse.source_16.0.0.201112171909/10/sources.zip"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
