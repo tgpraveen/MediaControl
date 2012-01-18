@@ -10,7 +10,7 @@
         </div>
 
         <div id="message">
-            <p>Send a poke to your Android device using Cloud to Device Messaging.</p>
+            <p>Enter your email address which you are using on your Android phone.</p>
             <div class="roundRect">
                 <input ui:field="recipientArea" type="text" class="field" size="62"
                     placeholder="pat@example.com" />
